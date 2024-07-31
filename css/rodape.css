@@ -22,10 +22,11 @@
 
 .contato-lista li {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 600;
   gap: 20px;
   margin-bottom: 20px;
   position: relative;
+  color: #ffffff;
 }
 
 .contato-lista li::before {
@@ -38,14 +39,17 @@
   top: 10px;
 }
 
-.iconEmail::before {
+#iconEmail::before {
   background: url("../img/iconEmail.svg") no-repeat center center;
 }
-.iconNumero::before {
+#iconNumero::before {
   background: url("../img/iconWpp.svg") no-repeat center center;
 }
-.iconInstagram::before {
+#iconInstagram::before {
   background: url("../img/iconInstagram.svg") no-repeat center center;
+}
+#iconGitHub::before {
+  background: url("../img/iconGitHub.svg") no-repeat center center;
 }
 
 .contato-lista li:hover {

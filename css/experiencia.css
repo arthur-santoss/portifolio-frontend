@@ -138,6 +138,9 @@
     text-transform: uppercase;
     text-align: center;
     position: relative;
+    font-size: 5rem;
+    max-width: 100%;
+    margin-bottom: 40px;
   }
 
   .empresa-ano {
@@ -150,7 +153,10 @@
   }
 }
 
-@media (max-width: 615px) {
+@media (max-width: 635px) {
+  .subtitulo {
+    font-size: 2.8rem;
+  }
   .experiencia {
     grid-template-columns: 1fr;
   }

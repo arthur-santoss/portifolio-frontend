@@ -35,6 +35,12 @@
   display: block;
 }
 
+.header a:hover,
+.header a:active {
+  background-color: #bbbbbb;
+  transition: 0.5s;
+}
+
 @media (max-width: 800px) {
   .header {
     flex-direction: column;

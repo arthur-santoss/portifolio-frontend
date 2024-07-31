@@ -41,7 +41,7 @@
 @media (max-width: 800px) {
   .introducao {
     grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    gap: 30px;
   }
 
   .introducao h1 {
@@ -54,11 +54,37 @@
   }
 }
 
+.introducao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imagem-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagem-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 500px) {
   .introducao {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    /* background-color: tomato; */
   }
+
+  .introducao > div:nth-child(1) {
+    /* background-color: blue; */
+    justify-items: center;
+  }
+
   .introducao img {
-    display: none;
+    max-width: 200px;
+    justify-self: center;
   }
 }
